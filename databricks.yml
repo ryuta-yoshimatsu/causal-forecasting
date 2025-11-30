@@ -21,7 +21,8 @@ variables:
 targets:
   dev:
     default: true
-    mode: development
+    workspace:
+      host: https://adb-984752964297111.11.azuredatabricks.net/
 
 # Customize the resources below based on your solution accelerator needs
 resources:
